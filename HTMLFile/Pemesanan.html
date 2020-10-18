@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tim Sertif</title>
+    <link rel="icon" href="../assets/Images/LogoHMTC.png" type="image/icon type">
+    <link rel="stylesheet" href="../assets/CSSFolder/style.css">
+    <link rel="stylesheet" href="../assets/CSSFolder/CSSSubmission.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="NavLogo">
+                <img src="../assets/Images/LogoHMTC.png">
+            </div>
+            <div class="Logoname">
+                <div class="thename">
+                    <h2 style="padding: 0; font-size: 32px;">Kesejahteraan Mahasiswa</h2>
+                </div>
+                <div class="thename">
+                    <h4>
+                        Informatika ITS Surabaya
+                    </h4>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Homepage</a></li>
+                <li><a href="BankSoal.html">Bank Soal</a></li>
+                <li><a href="Submission.html">Tugas - Tugas</a></li>
+            </ul>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 id="Input" style="text-align: center;padding: 0;">Input Baru</h2>
+        <!-- DONT TOUCH TOUCH -->
+            <div class="modiv-form">
+                <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+
+                <form class="gform pure-form pure-form-stacked" method="POST" action="https://script.google.com/macros/s/AKfycby6-JLJIa7cUIjtQ698wITNP1prOz2OWETNmqtgbS0qs6PxubSA/exec">
+                    <!-- change the form action to your script url -->
+
+                    <div class="form-elements">
+                        <fieldset class="pure-group">
+                            <label for="name">Nama Lengkap : </label>
+                            <input id="name" class="input1" name="name" placeholder="Masukkan Nama Anda" />
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="nrp">NRP : </label>
+                            <input id="nrp" class="input1" name="nrp" placeholder="Masukkan NRP Anda" />
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="email">Alamat Email Pengisi :</label>
+                            <input id="email" class="input1" name="email" type="email" value="" required placeholder="example@gmail.com" />
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="cperson">ID Line / No. Whatsapp :</label>
+                            <input id="cperson" class="input1" name="cperson" placeholder="Masukkan ID Line / No. Whatsapp yang dapat dihubungi" />
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="angkatan">Angkatan :</label>
+                            <input id="angkatan" class="input1" name="angkatan" value="" required placeholder="TC 20XX" />
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="jenis_submit">Pilih Kategori ( Tugas / Bank Soal ) :</label>
+                            <input id="jenis_submit" class="input1" name="jenis_submit" placeholder="Masukkan Pilihan Kategori"></textarea>
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="mata_kuliah">Mata Kuliah : </label>
+                            <input id="mata_kuliah" class="input1" name="mata_kuliah" placeholder="Masukkan Nama Mata Kuliah" />
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="penjelasan_singkat">Penjelasan Singkat Materi : </label>
+                            <textarea id="penjelasan_singkat" class="input1" name="penjelasan_singkat" rows="3" placeholder="Masukkan Penjelasan Singkat Dari Inputan Tugas / Bank Soal"></textarea>
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="link_drive">Link Drive : </label>
+                            <input id="link_drive" class="input1" name="link_drive" placeholder="Masukkan Link Drive yang Berisi File Penunjang Bila Tersedia" />
+                        </fieldset>
+
+                        <fieldset class="pure-group honeypot-field">
+                            <!-- <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label> -->
+                            <input id="honeypot" type="text" name="honeypot" value="" />
+                        </fieldset>
+
+                        <br>
+                        <div class="container-contact1-form-btn">
+                            <button class="contact1-form-btn btn-success pure-button button-xlarge">
+                                <i class="fa fa-paper-plane"></i>&nbsp;Send&nbsp;
+                            </button>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Customise the Thankyou Message People See when they submit the form: -->
+                    <div class="thankyou_message" style="display:none;">
+                        <h3 style="text-align:center;"><em>Terima Kasih</em> telah memasukan evaluasi. Kami akan menampilkan informasi Anda</h3>
+                        <h3 style="text-align:center;"><strong>Silahkan Refresh Halaman untuk memasukkan kembali</strong></h3>
+                    </div>
+
+                </form>
+
+            </div>
+            <br>
+
+        <div class="jarak-pinggir">
+            <h3 class="left blue">
+                Contact Person:
+            </h3>
+            <h4>
+                <ul>
+                    <li>Alberto (08123456781)</li>
+                    <li>Feinard (08123456782)</li>
+                    <li>Kevin   (08123456783)</li>
+                </ul>
+            </h4>
+        </div>
+
+    </main>
+
+    <footer style="height: 10%;">
+        <h3> Tim Sertif &#169; 2020 . All Rights Reserved </h3>
+    </footer>
+
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" src="../assets/JSFolder/form-submission-handler.js"></script>
+    <!-- END -->
+    <script src="../assets/JSFolder/main.js"></script>
+</body>
+
+</html>
